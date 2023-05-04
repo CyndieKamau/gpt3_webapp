@@ -40,7 +40,6 @@ const Navbar = () => {
               <p><a href='#possibility'> Case Studies </a></p>
               <p><a href='#blog'> Library </a></p>
             </div>
-
             <div className='dna__navbar-menu_container-links-sign_in'>
               <p>Sign In</p>
               <button type='button'>Sign Up </button>
