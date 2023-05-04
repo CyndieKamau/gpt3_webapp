@@ -34,7 +34,7 @@
 }
 
 .dna__navbar-links_container p, .dna__navbar-sign_in p, .dna__navbar-menu_container p {
-    color: #fff;
+    color:#fff;
     font-family: var(--font-family);
     font-size: 18px;
     font-weight: 500;

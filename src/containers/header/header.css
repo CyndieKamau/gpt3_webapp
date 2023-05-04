@@ -1,0 +1,166 @@
+.dna__header {
+    display: flex;
+}
+
+.dna__header-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 5rem;
+
+}
+
+.dna__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: -0.04rem;
+}
+
+.dna__header-content p {
+    font-family: var(--font-family);
+    color:var(--color-text);
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 1.5rem;
+}
+
+.dna__header-content__input {
+    margin: 2rem 0 1rem;
+    width: 100%;
+    display: flex;
+}
+
+.dna__header-content__input input {
+    font-family: var(--font-family);
+    border-radius: 5px 0 0 5px;
+    font-size: 20px;
+    line-height: 27px;
+    background:var(--color-footer);
+    border: 2px solid var(--color-footer);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:#fff;
+
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    padding: 0 1rem;
+    outline: none;
+
+}
+
+.dna__header-content__input button {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    background:#51A054;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    padding: 0 1rem;
+    border: 2px solid #51A054;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.dna__header-content__people {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.dna__header-content__people img {
+    height: 38px;
+    width: 181.79px;
+}
+
+.dna__header-content__people p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 38px;
+    font-weight: 500;
+    margin: 0 0 0 1rem;
+    text-align: center;
+    color: #fff;
+
+}
+
+.dna__header-content__image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.dna__header-content__image img {
+    height: 75%;
+    width: 130%;
+}
+
+
+@media screen and (max-width:1050px) {
+    .dna__header {
+        flex-direction: column;
+    }
+
+    .dna__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .dna__header h1{
+        font-size: 44px;
+        line-height: 60px;
+    }
+
+    .dna__header p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .dna__header-content__people {
+        flex-direction: column;
+    }
+
+    .dna__header-content__people p {
+        margin: 0;
+    }
+
+    .dna__header-content__input input, .dna__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    
+}
+
+@media screen and (max-width:490px) {
+    .dna__header h1{
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .dna__header p{
+        font-size: 14px;
+        line-height: 24px;   
+    }
+
+    .dna__header-content__input input, .dna__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
