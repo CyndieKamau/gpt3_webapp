@@ -31,7 +31,7 @@ const Navbar = () => {
       <div>
         <div className='dna__navbar-sign_in'>
           <p>Sign In</p>
-          <button type='button' onClick={handleSignUp}>Sign Up </button>
+          <button type='button' onClick={handleSignUp}>Sign Up</button>
         </div>
         <div className='dna__navbar-menu'>
         {toggleMenu
@@ -50,7 +50,7 @@ const Navbar = () => {
             </div>
             <div className='dna__navbar-menu_container-links-sign_in'>
               <p>Sign In</p>
-              <button type='button' onClick={handleSignUp}>Sign Up </button>
+              <button type='button' onClick={handleSignUp}>Sign Up</button>
             </div>
           </div>
         )}
