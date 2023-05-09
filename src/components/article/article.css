@@ -1,0 +1,86 @@
+.dna__blog-container_article {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-footer);
+}
+
+.dna__blog-container_article-image {
+    width: 100%;
+    height: 100%;
+    background: var(--color-footer);
+}
+
+.dna__blog-container_article-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.dna__blog-container_article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem ;
+    height: 100%;
+    position: relative;
+}
+
+.dna__blog-container_article-content p {
+
+    font-family:var(--font-family);
+    font-weight: bold;
+    font-size: 11.649px;
+    line-height: 35px;
+    color: #fff;
+} 
+
+.dna__blog-container_article-content h3 {
+
+    font-family:var(--font-family);
+    font-weight: 800;
+    font-size: 25.11px;
+    line-height: 30px;
+    color:#fff;
+
+    margin-bottom: 5rem;
+    cursor: pointer;
+
+} 
+
+.dna__blog-container_article-content p:last-child {
+    cursor: pointer;
+
+} 
+
+.dna__blog-container_article-content_fund button {
+    position: absolute;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-family: var(--font-family);
+    background:#51A054 ;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 25px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    right: 0;
+    top: 70%;
+
+
+}
+
+@media screen and (max-width:550px) {
+    .dna__blog-container_article-content h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .dna__blog-container_article-content_fund button {
+        font-size: 15px;
+        line-height: 20px;
+        top: 75%;
+    }
+}

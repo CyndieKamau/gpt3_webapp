@@ -2,6 +2,14 @@ import React, {useState} from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 //import logo from '../../assets/logosm.png'
 import './navbar.css';
+import { createWallet } from './signup';
+
+
+const handleSignUp = () => {
+  const wallet = createWallet();
+  console.log('Wallet created:', wallet);
+};
+
 
 
 const Navbar = () => {
@@ -23,7 +31,7 @@ const Navbar = () => {
       <div>
         <div className='dna__navbar-sign_in'>
           <p>Sign In</p>
-          <button type='button'>Sign Up </button>
+          <button type='button' onClick={handleSignUp}>Sign Up </button>
         </div>
         <div className='dna__navbar-menu'>
         {toggleMenu
@@ -42,7 +50,7 @@ const Navbar = () => {
             </div>
             <div className='dna__navbar-menu_container-links-sign_in'>
               <p>Sign In</p>
-              <button type='button'>Sign Up </button>
+              <button type='button' onClick={handleSignUp}>Sign Up </button>
             </div>
           </div>
         )}
