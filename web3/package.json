@@ -1,15 +1,36 @@
 {
-  "name": "hardhat-javascript-starter",
+  "name": "web3",
+  "version": "1.0.0",
+  "description": "Smart Contract for crowd funding",
+  "main": "index.js",
   "scripts": {
-    "build": "npx thirdweb@latest detect",
-    "deploy": "npx thirdweb@latest deploy",
-    "release": "npx thirdweb@latest release"
+    "test": "test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyndieKamau/gpt3_webapp.git"
+  },
+  "keywords": [
+    "crowdfund",
+    "researchers"
+  ],
+  "author": "Cyndie Kamau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyndieKamau/gpt3_webapp/issues"
+  },
+  "homepage": "https://github.com/CyndieKamau/gpt3_webapp#readme",
   "devDependencies": {
-    "hardhat": "^2.10.1"
+    "@celo/contractkit": "^4.1.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.14.0",
+    "hardhat-celo": "^0.0.4"
   },
   "dependencies": {
-    "@thirdweb-dev/contracts": "^3",
     "dotenv": "^16.0.3"
   }
 }
